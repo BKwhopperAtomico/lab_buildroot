@@ -1,0 +1,8 @@
+#Para matar o programa qemu
+killall qemu-system-i386
+
+#Para setar a variavel do Linux
+export LINUX_OVERRIDE_SRCDIR=/workspaces/lab_buildroot/buildroot/matricula/linux-4.13.9/
+
+#Comando que deve ser feito to a hora que tive ue dar um novo make linux-menuconfig
+rm output/build/linux-custom/.stamp_*
